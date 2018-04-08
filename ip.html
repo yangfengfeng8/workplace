@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link href="css/style.css" rel="stylesheet"/>
+		
+	</head>
+	<body>
+		<div class="ip-container">
+			<div class="input-group">
+				<label for="ip">
+					IP:
+				</label>
+				<input type="text" id="ip">
+			</div>
+			<div class="input-group">
+				<label for="subNetwork">
+					SubNetwork:
+				</label>
+				<input type="text" id="subNetwork">
+			</div>
+			<div class="input-group">
+				<label for="gateway">
+					Gateway:
+				</label>
+				<input type="text" id="gateway">
+			</div>
+			<div class="input-group">
+				<label for="mac">
+					MAC:
+				</label>
+				<input type="text" id="mac">
+			</div>
+			<div class="input-group">
+				<input type="button" value="Save" id="save" onclick="save()">
+			</div>
+		</div>
+		
+		<script type="application/javascript">
+			function save(){
+				console.log("save");
+			}
+		</script>
+	</body>
+</html>
